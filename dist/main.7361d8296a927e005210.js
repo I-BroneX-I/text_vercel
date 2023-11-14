@@ -1,0 +1,2 @@
+!function(){"use strict";var e={yellow:"yellow",red:"red",green:"green",blue:"blue"};document.querySelector(".blockMain").addEventListener("click",(function(s){var c=s.target;if(!c.classList.contains("blockMain"))for(var l in e)c.className.includes(l)?c.classList.remove(l):c.classList.add(l)}))}();
+//# sourceMappingURL=main.7361d8296a927e005210.js.map
